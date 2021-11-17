@@ -17,12 +17,16 @@ header h1 {
   float: left;
   font-family:sans-serif;
 }
-header nav {
-  width: 60%;
-  /*text-align: center;*/
-  padding: 1%;
+.navContainer{
+  position: absolute;
 }
-header nav li {
+.navContainer nav {
+  width: 90%;
+  /*text-align: center;*/
+  padding: 4%;
+  text-indent: 25px;
+}
+.navContainer nav li {
   display: inline-block;
   font-size: 20px;
 }

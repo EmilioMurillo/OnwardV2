@@ -1,0 +1,38 @@
+.thermometer {
+  margin: 0 auto;
+	width: 65%;
+	height: 70px;
+  text-align: center;
+	background: #eceff0;
+}
+
+.progress-bar {
+  color: #fff;
+  height: 70px;
+	float: left;
+	background-color: #60a3a3;
+}
+
+h3.goal, .progress-bar h3.total {
+	font-family: Open Sans, sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+	line-height: 70px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline;
+}
+
+.goal {
+  color: #b1b1b1;
+}
+
+.progress-bar h3.total {
+  animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
