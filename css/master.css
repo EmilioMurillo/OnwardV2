@@ -1,156 +1,109 @@
 body{
   margin: 0;
 }
-header, footer {
+footer {
   clear: both;
   /*border: 1px solid blue;*/
 }
-section {
+header, .mediaRow, .quoteSection, .ourVisionHero {
   float: left;
   width: 100%;
   /*border: 1px solid black;*/
 }
-header h1 {
-  display: block;
-  width: 20%;
-  margin: 0;
-  float: left;
-  font-family:sans-serif;
-}
-.navContainer{
+
+/* ----------NAV BAR START-----------------*/
+header{
   position: fixed;
-  background-color:white;
   top: 0;
+  left: 0;
+  z-index: 1;
 }
-.navContainer nav {
-  width: 90%;
+header section.navContainer{
+  /* position: fixed; */
+  float: left;
+  background-color:white;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  width: 100%;
+}
+header section.navContainer h1{
+  width: 20%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 27px;
+  font-family: sans-serif;
+  font-weight:bolder;
+}
+header section.navContainer nav {
+  width: 70%;
   /*text-align: center;*/
   padding: 2%;
   text-indent: 25px;
   text-align: right;
+  float: right;
+  margin-top: 5px;
+  margin-right: 1%;
 }
-.navContainer nav a li {
+header section.navContainer nav a{
+  text-decoration: none;
+}
+header section.navContainer nav a li {
   display: inline-block;
   font-size: 20px;
   color: black;
 }
-.navContainer nav a li:hover{
+header section.navContainer nav a li:hover{
   color: #ff9900;
 }
-.navContainer nav a{
-  text-decoration: none;
-}
-header h1 {
-  display: none;
-}
+/* ----------NAV BAR END-----------------*/
+
 /* ----------VIDEO BANNER START-----------------*/
-.filmContainer{
-  top: 0;
-  bottom: 0;
+section.mediaRow{
+  margin-top: 6%;
+}
+section.mediaRow .filmContainer{
+  /* top: 0;
+  bottom: 0; */
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
-.filmContainer > video {
+section.mediaRow .filmContainer video {
   display: block;
   transform: translate(-40%, -29%);
+  overflow: hidden;
+  background-size: contain;
 }
-.skydeckBanner{
-  min-width: 100%;
-  min-height: 100%;
-  /*width: auto;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);*/
+section.mediaRow section.filmInfo {
+  width: 100%;
+  text-align: left;
 }
-.filmInfo h2, h3 {
+.filmInfo h2{
   position: absolute;
   width: 100%;
   text-align: center;
-}
-.filmInfo h2 {
   margin-top: -27%;
   font-size: 64px;
-  color: #ff9900;
+  /* color: #f8ff00; */
+  color: white;
   font-family: sans-serif;
   font-weight: bolder;
 }
-.filmInfo h3 {
-  margin-top: -30%;
-  font-size: 50px;
-  color: white;
-  font-family: sans-serif;
-  font-weight: lighter;
-}
 section.video-filter{
-  position: absolute;
-  top: 0;
+  /* position: absolute; */
+  top: 13%;
   left: 0;
   width: 100%;
-  height: 100vh;
   overflow: hidden;
   background: rgb(0 0 0 / 50%);
 }
 }
 /* ----------VIDEO BANNER END-----------------*/
-section.mediaRow{
-  float: left;
-  width: 100%;
-}
 
-section.mediaRow section.filmInfo {
-  width: 100%;
-  text-align: left;
-}
-section.mediaRow section.filmInfo div.infoWrapper{
-  width: 55%;
-  margin: 0 auto;
-}
-section.mediaRow section.filmInfo p {
-  padding: 1%;
-}
 
-/* ----------------SKYDECK GALLERY START-----------------*/
-h4 {
-  text-align: center;
-  font-size: 41px;
-  font-family: sans-serif;
-  color: lightblue;
-  margin-top: 5%;
-  margin-bottom: 2%;
-  margin-right: 19px;
-}
-.skydeckVideoGrid section iframe {
-  max-width: 100%;
-  height: 223px;
-}
-.skydeckVideoGrid {
-  float: left;
-  width: 100%;
-}
-.skydeckVideoGrid section {
-  float: left;
-  width: 31%;
-  padding: 1%;
-}
-.skydeckVideoGrid section iframe {
-  width: -webkit-fill-available;
-}
-/*.skydeckVideoGrid {
-  display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
-  height: 100vh;
-}
-.skydeckVideoGrid > section {
-  background-color: #eee;
-  padding: 1em;
-}
-.grid > section:nth-child(odd){
-  background-color: #ddd;
-}*/
-/* ----------------SKYDECK GALLERY END-----------------*/
+
+
 
 /* ---------------------------MEDIA QUERYS START --------------------------*/
 @media only screen and (max-width: 500px) {
