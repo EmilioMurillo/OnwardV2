@@ -101,7 +101,10 @@ section.video-filter{
 }
 /* ----------VIDEO BANNER END-----------------*/
 
-
+section.wrap{
+  width: 50% !important;
+  text-align: center;
+}
 
 
 
