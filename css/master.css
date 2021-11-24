@@ -71,7 +71,7 @@ section.mediaRow .filmContainer{
 }
 section.mediaRow .filmContainer video {
   display: block;
-  transform: translate(-40%, -29%);
+  transform: translate(-10%, -6%);
   overflow: hidden;
   background-size: contain;
 }
@@ -98,12 +98,52 @@ section.video-filter{
   overflow: hidden;
   background: rgb(0 0 0 / 50%);
 }
-}
+
 /* ----------VIDEO BANNER END-----------------*/
 
-section.wrap{
-  width: 50% !important;
+section.quoteSection, .ourVisionHero{
+  width: 100%;
   text-align: center;
+}
+section.ourVisionHero{
+  background-color: #17365f;
+}
+section.quoteSection .wrap {
+  width: 60%;
+  border: 5px solid yellow;
+  border-radius: 2%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+section.quoteSection .wrap p {
+  padding: 5%;
+  font-weight: bolder;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+section.ourVisionHero .wrap {
+  width: 65%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.ourVisionHero .wrap h2{
+  font-size: 30px;
+  text-decoration: underline yellow;
+  color: white;
+  padding-bottom: 3px;
+}
+.ourVisionHero .wrap p{
+  color: white;
+  font-size: 1.5em;
+}
+.ourVisionHero .wrap #quote{
+  color: white;
+  font-size: 1.5em;
+  font-family: cursive;
 }
 
 
