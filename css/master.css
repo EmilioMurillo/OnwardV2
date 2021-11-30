@@ -143,9 +143,12 @@ section.ourVisionHero .wrap {
 }
 .ourVisionHero .wrap #quote{
   color: white;
-  font-size: 1.5em;
+  font-size: 1.0em;
   font-family: cursive;
   font-style: italic;
+}
+span{
+  color: white;
 }
 
 @keyframes fadeInDown {
