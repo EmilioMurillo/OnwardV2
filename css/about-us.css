@@ -1,3 +1,24 @@
+body{
+  margin: 0;
+}
+footer {
+  clear: both;
+  /*border: 1px solid blue;*/
+}
+header, section {
+  float: left;
+  width: 100%;
+  /*border: 1px solid black;*/
+}
+.main{
+  margin-top: 6%;
+}
+
+
+
+
+
+
 /* ----------NAV BAR START-----------------*/
 header{
   position: fixed;
