@@ -27,13 +27,14 @@ header section.navContainer{
   left: 0; */
   width: 100%;
 }
-header section.navContainer h1{
+header section.navContainer a h1{
   width: 20%;
   float: left;
   margin-left: 5%;
   margin-top: 27px;
   font-family: sans-serif;
   font-weight:bolder;
+  color: black;
 }
 header section.navContainer nav {
   width: 70%;
