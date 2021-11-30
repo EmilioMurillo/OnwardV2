@@ -71,6 +71,7 @@ section.quoteSection, .ourVisionHero{
 }
 section.ourVisionHero{
   background-color: #17365f;
+  height: 100vh;
 }
 section.quoteSection .wrap {
   width: 60%;
