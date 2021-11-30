@@ -96,13 +96,14 @@ section.ourVisionHero .wrap {
 }
 .ourVisionHero .wrap h2{
   font-size: 30px;
-  text-decoration: underline yellow;
   color: white;
   padding-bottom: 3px;
+  text-align: left;
 }
 .ourVisionHero .wrap p{
   color: white;
   font-size: 1.5em;
+  text-align: left;
 }
 .ourVisionHero .wrap #quote{
   color: white;
