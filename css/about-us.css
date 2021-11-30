@@ -5,7 +5,7 @@ footer {
   clear: both;
   /*border: 1px solid blue;*/
 }
-header, section {
+header, .mediaRow, .quoteSection, .ourVisionHero {
   float: left;
   width: 100%;
   /*border: 1px solid black;*/
