@@ -45,6 +45,7 @@ header section.navContainer nav {
   float: right;
   margin-top: 5px;
   margin-right: 1%;
+  font-family: sans-serif;
 }
 header section.navContainer nav a{
   text-decoration: none;
@@ -69,12 +70,14 @@ section.mediaRow .filmContainer{
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  background-color: black;
 }
 section.mediaRow .filmContainer video {
   display: block;
-  transform: translate(-10%, -6%);
+  transform: translate(-10%, -10%);
   overflow: hidden;
   background-size: contain;
+  filter: opacity(45%);
 }
 section.mediaRow section.filmInfo {
   width: 100%;
@@ -82,22 +85,30 @@ section.mediaRow section.filmInfo {
 }
 .filmInfo h2{
   position: absolute;
-  width: 100%;
-  text-align: center;
-  margin-top: -27%;
-  font-size: 64px;
+  width: 53%;
+  text-align: left;
+  margin-top: -33%;
+  margin-left: 5%;
+  font-size: 32px;
   /* color: #f8ff00; */
   color: white;
   font-family: sans-serif;
   font-weight: bolder;
 }
-section.video-filter{
-  /* position: absolute; */
-  top: 13%;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  background: rgb(0 0 0 / 50%);
+.filmInfo button{
+  position: absolute;
+  width: 20%;
+  text-align: center;
+  margin-top: -15%;
+  margin-left: 5%;
+  border-radius: 50px;
+  padding: 1%;
+  border: 5px solid white;
+  color: white;
+  background-color:inherit;
+}
+div.video-filter{
+
 }
 
 /* ----------VIDEO BANNER END-----------------*/
@@ -110,19 +121,37 @@ section.ourVisionHero{
   background-color: #17365f;
 }
 section.quoteSection .wrap {
-  width: 60%;
-  border: 5px solid yellow;
+  width: 50%;
+  /* border: 5px solid yellow; */
   border-radius: 2%;
   display: block;
-  margin: 0 auto;
+  margin-left: 5%;
   margin-top: 10%;
   margin-bottom: 10%;
+  float: left;
 }
-section.quoteSection .wrap p {
-  padding: 5%;
+section.quoteSection .wrap h2{
   font-weight: bolder;
   font-size: 2em;
   font-family: sans-serif;
+  text-align: left;
+  padding: 1%;
+}
+section.quoteSection .wrap p {
+  padding: 1%;
+  font-weight: bolder;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  text-align: left;
+}
+section.quoteSection .imgCont{
+  width: 30%;
+  float: left;
+}
+section.quoteSection .imgCont img{
+  height: 1000px;
+  margin-left: -100%;
+  margin-top: 20%;
 }
 section.ourVisionHero .wrap {
   width: 65%;
