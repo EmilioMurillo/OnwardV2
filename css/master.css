@@ -210,18 +210,29 @@ span{
   section.mediaRow section.filmInfo div.infoWrapper{
     width: 100%;
   }
+  section.mediaRow section.filmInfo {
+    position: absolute;
+    margin-top: -127%;
+  }
   section.mediaRow section.filmInfo h2 {
-    margin-top: -160%;
-    font-size: 85px;
-    color: yellow;
+    color: white;
     font-family: sans-serif;
     text-align: left;
+    width:92%;
   }
   section.mediaRow section.filmInfo h3 {
     margin-top: -80%;
     font-size: 50px;
     color: white;
     text-align: left;
+  }
+  section.mediaRow section.filmInfo button{
+    width:47%;
+    padding:7%;
+    margin-top: 79%;
+  }
+  section.quoteSection .wrap {
+    width:83%;
   }
   .skydeckVideoGrid section {
     width: 100%;
