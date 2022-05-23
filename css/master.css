@@ -162,9 +162,9 @@ section.ourVisionHero .wrap {
 }
 .ourVisionHero .wrap h2{
   font-size: 30px;
-  text-decoration: underline yellow;
   color: white;
   padding-bottom: 3px;
+  font-family: sans-serif;
 }
 .ourVisionHero .wrap p{
   color: white;
@@ -225,6 +225,8 @@ span{
     font-family: sans-serif;
     text-align: left;
     width:92%;
+    font-size: 1.5em;
+    margin-top: 4%;
   }
   section.mediaRow section.filmInfo h3 {
     margin-top: -80%;
@@ -233,12 +235,17 @@ span{
     text-align: left;
   }
   section.mediaRow section.filmInfo button{
-    width:47%;
+    width:62%;
     padding:7%;
     margin-top: 79%;
+    font-size: 20px;
   }
   section.quoteSection .wrap {
     width:83%;
+  }
+  section.quoteSection .wrap h2{
+    text-align: center;
+    width: 100%;
   }
   section.ourVisionHero .wrap{
     width: 90%;
@@ -277,9 +284,10 @@ span{
     text-align: left;
   }
   section.mediaRow section.filmInfo button{
-    width:47%;
+    width:62%;
     padding:7%;
     margin-top: 79%;
+    font-size: 20px;
   }
   section.quoteSection .wrap {
     width:83%;
