@@ -202,6 +202,12 @@ span{
 
 /* ---------------------------MEDIA QUERYS START --------------------------*/
 @media only screen and (max-width: 500px) {
+  header section.navContainer nav{
+    margin-top: 34px;
+  }
+  header section.navContainer nav a{
+    margin-right: 20px;
+  }
   section.mediaRow section.filmContainer iframe {
     width: 400px;
     height: 400px;
@@ -234,11 +240,18 @@ span{
   section.quoteSection .wrap {
     width:83%;
   }
-  .skydeckVideoGrid section {
-    width: 100%;
+  section.ourVisionHero .wrap{
+    width: 90%;
   }
+
 }
 @media (min-width:501px) and (max-width:800px)  {
+  header section.navContainer nav{
+    margin-top: 34px;
+  }
+  header section.navContainer nav a{
+    margin-right: 20px;
+  }
   section.mediaRow section.filmContainer iframe {
     width: 400px;
     height: 400px;
@@ -271,7 +284,7 @@ span{
   section.quoteSection .wrap {
     width:83%;
   }
-  .skydeckVideoGrid section {
-    width: 100%;
+  section.ourVisionHero .wrap{
+    width: 90%;
   }
 }
