@@ -126,9 +126,9 @@ section.quoteSection .wrap {
   border-radius: 2%;
   display: block;
   margin-left: 5%;
-  margin-top: 10%;
-  margin-bottom: 10%;
   float: left;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 section.quoteSection .wrap h2{
   font-weight: bolder;
