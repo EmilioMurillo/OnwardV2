@@ -145,13 +145,11 @@ section.quoteSection .wrap p {
   text-align: left;
 }
 section.quoteSection .imgCont{
-  width: 30%;
+  width: 39%;
   float: left;
 }
 section.quoteSection .imgCont img{
-  height: 1000px;
-  margin-left: -100%;
-  margin-top: 20%;
+  height: 300px;
 }
 section.ourVisionHero .wrap {
   width: 65%;
